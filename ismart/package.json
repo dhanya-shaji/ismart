@@ -1,0 +1,60 @@
+{
+  "name": "ismart",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "react-start": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res"
+  },
+  "dependencies": {
+    "feather-icons-react": "^0.3.2",
+    "link": "^0.1.5",
+    "react": "16.9.0",
+    "react-devtools": "^4.3.0",
+    "react-evil-icons": "^0.5.0",
+    "react-native": "^0.61.5",
+    "react-native-easy-grid": "^0.2.2",
+    "react-native-elements": "^1.2.7",
+    "react-native-fast-image": "^7.0.2",
+    "react-native-gesture-handler": "^1.5.2",
+    "react-native-image-slider-box": "^1.0.11",
+    "react-native-material-bottom-navigation": "^1.0.5",
+    "react-native-paper": "^3.4.0",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-search-box": "0.0.19",
+    "react-native-snap-carousel": "^3.8.4",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-typography": "^1.4.1",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-drawer": "^2.3.3",
+    "react-navigation-stack": "^1.10.3",
+    "react-navigation-tabs": "^2.6.2",
+    "react-reducer-store": "^2.1.8",
+    "react-redux": "^7.1.3",
+    "reducer-redux": "^1.2.1",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-connect": "^10.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.1.3",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/runtime": "7.7.7",
+    "@react-native-community/eslint-config": "0.0.5",
+    "babel-jest": "24.9.0",
+    "eslint": "6.8.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.3",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
