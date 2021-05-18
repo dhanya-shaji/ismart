@@ -19,7 +19,7 @@
     "react-native": "^0.61.5",
     "react-native-easy-grid": "^0.2.2",
     "react-native-elements": "^1.2.7",
-    "react-native-fast-image": "^7.0.2",
+    "react-native-fast-image": "^8.3.0",
     "react-native-gesture-handler": "^1.5.2",
     "react-native-image-slider-box": "^1.0.11",
     "react-native-material-bottom-navigation": "^1.0.5",
